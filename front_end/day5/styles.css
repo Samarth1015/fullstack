@@ -1,0 +1,20 @@
+h1 {
+  color: orange;
+}
+button {
+  color: blue;
+}
+p {
+  background-color: black;
+  color: white;
+}
+h3 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 10px;
+  color: orange;
+  text-decoration: skyblue double underline;
+  font-family: serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}

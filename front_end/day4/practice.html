@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Travel reservation form</h1>
+
+    <form action="/action">
+      <h3>* Denotes mandatory</h3>
+      <section>
+        <label for="name">Full Name*:</label><br />
+        <input type="text" placeholder="Full name" id="name" name="full name" />
+      </section>
+      <section>
+        <label for="email">Email*:</label>
+        <br />
+        <input
+          type="text"
+          placeholder="Email address"
+          id="email"
+          name="email"
+        />
+      </section>
+      <section>
+        <label for="package">select your package</label>
+        <select name="package" id="package">
+          <option value="goa">Goa</option>
+          <option value="indore">indore</option>
+          <option value="delhi">delhi</option>
+        </select>
+      </section>
+      <section>
+        <label for="date">Date of arrival*:</label><br />
+        <input
+          type="date"
+          placeholder="date of arrival "
+          id="date"
+          name="date"
+        />
+      </section>
+      <section><button type="submit">submit</button></section>
+    </form>
+  </body>
+</html>
