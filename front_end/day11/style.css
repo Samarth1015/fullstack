@@ -1,15 +1,24 @@
 .main_box {
+  font-family: "Poppins", sans-serif;
   margin: -8px;
   padding: 2px;
   height: 100vh;
   width: 215vh;
   background-image: url(photo.jpg);
   background-size: cover;
+  font-size: small;
+}
+.fa-xmark {
+  position: relative;
+  left: 184px;
+  top: -21px;
 }
 .fa-bars {
   content: "\f0c9";
   position: absolute;
-  left: 22px;
+  left: 16px;
+  top: 9px;
+  z-index: 20;
 }
 .sidebar_menu {
   height: 500px;
@@ -17,13 +26,76 @@
 
   border: 2px solid rgb(36, 42, 44);
   position: absolute;
-  background-color: rgb(23, 23, 22);
-  opacity: 50%;
-  box-shadow: 5px 5px 10px black;
-  /* left: -336px; */
+  background-color: rgb(23, 23, 22, 0.1);
+
+  box-shadow: 5px 5px 20px black;
+  left: -336px;
 }
 .apna {
   position: relative;
-  top: 26px;
-  left: 31px;
+  top: 0px;
+  left: 42px;
+  color: white;
+  z-index: 30;
+}
+.menu {
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  z-index: 40;
+}
+.social_media {
+  position: relative;
+  top: 30px;
+  left: 20px;
+  z-index: 30;
+}
+#icon {
+  margin: 5px;
+  z-index: 30;
+  opacity: 0.2;
+}
+#icon :hover {
+  color: red;
+
+  color: white;
+  box-shadow: 3px 3px 10px white;
+}
+.li {
+  z-index: 30;
+  /* margin: 5px; */
+}
+ul a {
+  z-index: 30;
+  padding: 0;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+ul {
+  z-index: 30;
+  display: block;
+  padding-left: 11pxpx;
+  line-height: 49px;
+  position: relative;
+  left: -40px;
+  width: 200px;
+  margin-left: 3px;
+}
+#check {
+  display: none;
+}
+ul li:hover {
+  background-color: rgba(52, 52, 52, 0.5);
+  border: 2px solid rgb(81, 78, 78);
+  box-shadow: 2px 2px 5px rgb(56, 55, 55);
+}
+#check:checked ~ .sidebar_menu {
+  transition-duration: 0.5s;
+  left: 0px;
+}
+
+.fa-bars :hover {
+  transform: scale(1.5);
 }
