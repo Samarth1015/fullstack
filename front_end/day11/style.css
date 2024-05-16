@@ -1,0 +1,29 @@
+.main_box {
+  margin: -8px;
+  padding: 2px;
+  height: 100vh;
+  width: 215vh;
+  background-image: url(photo.jpg);
+  background-size: cover;
+}
+.fa-bars {
+  content: "\f0c9";
+  position: absolute;
+  left: 22px;
+}
+.sidebar_menu {
+  height: 500px;
+  width: 200px;
+
+  border: 2px solid rgb(36, 42, 44);
+  position: absolute;
+  background-color: rgb(23, 23, 22);
+  opacity: 50%;
+  box-shadow: 5px 5px 10px black;
+  /* left: -336px; */
+}
+.apna {
+  position: relative;
+  top: 26px;
+  left: 31px;
+}
