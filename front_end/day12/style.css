@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+h6 {
+  text-align: center;
+}
+* {
+  margin: 20px;
+}
+.container {
+  display: flex;
+}
+.card-header {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+.card-title {
+  font-weight: bold;
+  text-align: center;
+}
+.btn-primary {
+  position: relative;
+  left: 14px;
+}
+p {
+  text-align: center;
+}
