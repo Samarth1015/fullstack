@@ -57,3 +57,5 @@ switch (number) {
 
 let name = prompt("write your name");
 console.log(`welcome ${name}`);
+let str = "samarth";
+console.log(str.toLowerCase().toUpperCase());
