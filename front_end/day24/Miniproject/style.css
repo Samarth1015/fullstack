@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 13px;
+  align-items: baseline;
+  justify-items: center;
+}
+
+.red {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  border: 6px solid black;
+  border-radius: 25%;
+  position: relative;
+  left: 200px;
+  margin-left: 5px;
+}
+.green {
+  height: 150px;
+  width: 150px;
+  background-color: green;
+  border: 6px solid black;
+  border-radius: 25%;
+  position: relative;
+  right: 200px;
+  margin-left: 5px;
+}
+.orange {
+  height: 150px;
+  width: 150px;
+  background-color: orange;
+  border: 6px solid black;
+  border-radius: 25%;
+  position: relative;
+  left: 200px;
+  margin-left: 5px;
+}
+.yellow {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  border: 6px solid black;
+  border-radius: 25%;
+  position: relative;
+  right: 200px;
+  margin-left: 5px;
+}
+
+.flash {
+  background-color: white;
+}
+.userflash {
+  background-color: black;
+}
+.wrong {
+  background-color: red;
+}
