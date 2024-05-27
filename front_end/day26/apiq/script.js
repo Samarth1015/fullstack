@@ -42,3 +42,7 @@ async function setimage() {
 function he() {
   console.log("hel");
 }
+
+function h() {
+  console.log("s");
+}
