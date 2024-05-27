@@ -38,3 +38,7 @@ async function setimage() {
   //   console.dir();
   imge.src = imageurl.data.message;
 }
+
+function he() {
+  console.log("hel");
+}
