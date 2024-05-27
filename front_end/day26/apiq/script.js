@@ -28,7 +28,8 @@ let url1 = "https://dog.ceo/api/breeds/image/random";
 // getFAct();
 
 let btn = document.querySelector("button");
-btn.addEventListener("click", setimage);git
+btn.addEventListener("click", setimage);
+git;
 
 async function setimage() {
   let imageurl = await axios.get(url1);
@@ -36,4 +37,7 @@ async function setimage() {
   let imge = document.querySelector("#result");
   //   console.dir();
   imge.src = imageurl.data.message;
+}
+function h() {
+  console.log("s");
 }
