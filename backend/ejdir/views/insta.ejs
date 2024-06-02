@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>This page belongs to <%= userspecificdata.name %></h1>
+    <p>
+      following <%=userspecificdata.followers %> &nbsp;&nbsp;&nbsp; following<%=
+      userspecificdata.following %>
+    </p>
+    <hr />
+    <% for(let img of userspecificdata.posts) { let url=img.image;%>
+
+    <img src="<%= img.image %>" alt="some img" />
+    <p>likes-<%= img.likes %>&nbsp;&nbsp;comments<%= img.comments %></p>
+    <% } %>
+  </body>
+</html>
