@@ -1,0 +1,16 @@
+.post {
+  background-color: wheat;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h1 {
+  color: maroon;
+}
+.ancdiv {
+  text-align: center;
+}
+.add_new {
+  text-decoration: none;
+  background-color: blanchedalmond;
+  color: black;
+  border-radius: 9px;
+}
