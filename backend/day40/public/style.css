@@ -1,0 +1,29 @@
+/* .screen {
+  display: flex;
+  flex-direction: column;
+} */
+body {
+  margin: 1rem;
+}
+body h1 {
+  text-align: center;
+}
+.panel {
+  display: inline-block;
+  background-color: wheat;
+  /* height: 7.25rem;
+  width: 13rem; */
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  box-shadow: 8px 5px rgb(168, 149, 149);
+
+  font-size: medium;
+}
+.msg {
+  background-color: cyan;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  height: auto;
+  box-shadow: 8px 6px rgba(82, 63, 63, 0.975);
+}

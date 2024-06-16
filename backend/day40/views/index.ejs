@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>mini whatsapp chats</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="http://localhost:8080/chats/new">new chat</a>
+    <h1>
+      welcome to whatsapp <br />
+      All chats!  </h1>
+      <div class="screen">
+      <% for(chat of chats){ %>
+      <div class="panel" >
+       <p> From:<%= chat.from %><br /></p>
+       <div class="msg">
+      </p>  Message:<%= chat.msg %></p>
+</div>        
+       <p> To: <%= chat.to %></p>
+       <hr>
+       <p><%= chat.date.toString().split(" ")[4] %></p>
+       <p><%= chat.date.toString().split(" ").splice(0,4).join("-")%> </p>
+       
+       <a href="http://localhost:8080/chats/<%= chat._id %>/edit  ">edit</a>
+       <form method="POST" action="http://localhost:8080/chats/<%= chat._id %>?_method=DELETE">
+<button>delete</button>
+       </form>
+      </div>
+      <br>
+      <% } %>
+      </div>
+   
+  </body>
+</html>
